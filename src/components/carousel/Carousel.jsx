@@ -12,6 +12,7 @@ import Img from "../lazyLoadImage/Img";
 import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 import "./style.scss";
+import PosterFallback from "../../assets/no-poster.png";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
   const carouselContainer = useRef();
@@ -60,7 +61,6 @@ const Carousel = ({ data, loading, endpoint, title }) => {
         />
         {!loading ? (
           <div className="carouselItems" ref={carouselContainer}>
-            {console.log(data, "trending datas")}
             {data?.map((item) => {
               const posterUrl = item.poster_path
                 ? url.poster + item.poster_path

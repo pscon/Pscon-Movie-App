@@ -11,7 +11,6 @@ const Popular = () => {
 
   const onTabChange = (tab) => {
     setEndpoint(tab === "Movies" ? "movie" : "tv");
-    console.log("tab changed");
   };
   return (
     <div className="relative mb-16 ">

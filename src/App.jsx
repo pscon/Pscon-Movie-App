@@ -26,7 +26,6 @@ function App() {
 
   const featchApiConfig = () => {
     fetchDataFromApi(`/configuration?api_key=${Access_key}`).then((res) => {
-      console.log(res, "popular");
       const url = {
         backdrop: res.images.secure_base_url + "original",
         poster: res.images.secure_base_url + "original",
@@ -48,12 +47,10 @@ function App() {
     });
 
     const data = await Promise.all(promises);
-    console.log(data, "genres");
     data.map(({ genres }) => {
       return genres.map((item) => (allGenres[item.id] = item));
     });
 
-    console.log(allGenres, "allGenres");
     dispatch(getGenres(allGenres));
   };
 
