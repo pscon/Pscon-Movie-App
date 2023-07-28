@@ -117,7 +117,7 @@ npm run deploy
 ### Contact
 
 - Linkedin: [Ekunola Paul](https://www.linkedin.com/in/ekunola-paul-42712b1aa/)
-- Email : [Email](mailto:ekunolapaul@gmail.com)
+- Email: [Email](mailto:ekunolapaul@gmail.com)
 
 ## Author
 
