@@ -74,7 +74,9 @@ const Header = () => {
     <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
       <ContentWrapper className="flex items-center justify-between">
         <div className="cursor-pointer " onClick={() => navigate("/")}>
-          <img src={logo} alt="" className="h-12" />
+          <h4 className="font-signature text-4xl ml-2 cursor-pointer text-secondary-pink font-bold">
+            Pscon-Movix
+          </h4>{" "}
         </div>
         <ul className="menuItems hidden items-center md:flex">
           <li className="menuItem" onClick={() => navigationHandler("movie")}>

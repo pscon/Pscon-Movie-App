@@ -59,7 +59,7 @@ Pscon-Movix
 
 ## Project description
 
-"Discover Your Perfect Movie Match: Your Personalized Movie Recommendation App!"
+Introducing Pscon-Movix, your go-to application for personalized movie and TV show recommendations, detailed information, and thrilling trailers. Discover your next favorite watch and make informed choices with our cutting-edge platform.
 
 ### Project features
 
@@ -75,14 +75,10 @@ Pscon-Movix
 
 - React.js
 - Tailwind CSS
-- React Markdown
+- Redux-toolkit
 - scss
 - TMBD (Movies API)
 - ESLint
-
-### Project status
-
-95% complete
 
 ### Project structure explanation
 
@@ -102,8 +98,6 @@ Pscon-Movix
 npm run deploy
 ```
 
----
-
 ### Project screenshots
 
 <!-- ![signup page](./public/signup.png)
@@ -120,16 +114,10 @@ npm run deploy
 
 [Pscon-Movix](https://pscon-movie-app.vercel.app/)
 
----
-
 ### Contact
 
 - Linkedin: [Ekunola Paul](https://www.linkedin.com/in/ekunola-paul-42712b1aa/)
 - Email : [Email](mailto:ekunolapaul@gmail.com)
-
----
-
----
 
 ## Author
 

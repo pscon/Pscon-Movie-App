@@ -34,7 +34,7 @@ const Footer = () => {
           {/* write a cool message for movie  lovers */}
           <p className="text-center shadow-sm  text-sm opacity-[0.8] mb-5 max-w[800px] md:text-lg md-6">
             &copy; {year} Developed by
-            <span className="text-secondary-pink text-lg hover:text-xl">
+            <span className=" font-black text-secondary-pink text-lg hover:text-xl">
               {" "}
               <a
                 href="https://www.linkedin.com/in/ekunola-paul-42712b1aa"
@@ -53,10 +53,17 @@ const Footer = () => {
             <FaInstagram />
           </span>
           <span className="w-[50px] h-[50px] rounded-full flex items-center justify-center cursor-pointer transition-all ease duration-300 hover:text-secondary-pink">
-            <FaTwitter />
+            <a href="https://twitter.com/PSCON3" target="_blank">
+              <FaTwitter />
+            </a>
           </span>
           <span className="w-[50px] h-[50px] rounded-full flex items-center justify-center cursor-pointer transition-all ease duration-300 hover:text-secondary-pink">
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com/in/ekunola-paul-42712b1aa"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
           </span>
         </div>
       </ContentWrapper>
