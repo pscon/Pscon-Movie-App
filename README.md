@@ -48,9 +48,10 @@ To obtain the API keys, follow these steps:
 
 Create a `.env` file at the root folder of your project and add the following content:
 
-````bash
+```bash
 VITE_APP_TMBD_TOKEN=YOUR_API_TOKEN_HERE
 VITE_APP_TMBD_API_KEY=YOUR_API_KEY_HERE
+```
 
 ## Project name
 
@@ -99,7 +100,7 @@ Pscon-Movix
 
 ```bash
 npm run deploy
-````
+```
 
 ---
 
